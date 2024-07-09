@@ -1,0 +1,80 @@
+body{
+font-family: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar{       
+    background: rgb(242, 246, 243);
+    width: 100%;
+    height: 20%; 
+    display: inline-block;
+
+}
+.navBar ul li{
+    justify-content: space-between;
+   color: rgb(20, 20, 201);
+   list-style: none;
+   align-items: center;
+   display: flex;
+   float: right;
+   padding: 0 20px 20px;
+   margin: 20px;
+   cursor: pointer;
+   transition: 0.3s;
+  
+}
+.navBar ul li:hover{
+    color:  rgb(208, 224, 212);
+}
+.form{ 
+    justify-content: space-between;
+    display: block;    
+    text-align: center;
+    background-color: rgb(212, 237, 193);
+    align-items: center;
+    width: 20%;    
+    padding:  30px;
+    margin: 10% auto;
+    border-radius: 15px;
+}
+input{    
+align-items: center;
+    justify-content: space-around; 
+    border-style: none;  
+    padding:  10px;    
+    width: 100%;
+    border-radius: 30px;
+
+
+}
+button{
+    align-items: center;
+    width: 30%;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(97, 187, 91);
+    color: rgb(253, 250, 250);
+    border: none;
+    border-radius: 10px;    
+    box-shadow: inset;
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: rgb(152, 215, 152);
+}
+h2{
+    color: grey;
+}
+h1{
+    justify-content: space-around;
+    color: rgb(201, 20, 135);
+    list-style: none;
+    align-items: center;
+    display: flex;
+    float: left;
+    padding: 0 20px 20px;
+    margin: 20px;
+  
+}
